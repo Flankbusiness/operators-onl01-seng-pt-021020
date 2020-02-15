@@ -11,8 +11,7 @@ end
 ####################################
 
 def not_safe?(speed)
- if speed > 60 ? 
-   return FALSE :  return TRUE
+ if speed > 60 
 	  
 	  
 	  
