@@ -12,13 +12,12 @@ end
 
 def not_safe?(speed)
   
- if speed > 60 ? speed==TRUE : speed==TRUE
+ if speed > 60 ? "TRUE" : "FALSE"
  
  elsif speed < 40
  return TRUE
  else speed == 60
    return FALSE
-   binding.pry
 	  
 	  
  end
